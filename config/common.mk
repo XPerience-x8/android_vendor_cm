@@ -14,7 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-    vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
+    vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-XPE.txt
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -85,7 +85,6 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
-    CMUpdater \
     CMFileManager
 
 # Extra tools in CM
@@ -148,12 +147,13 @@ endif
 ifdef CM_RELEASE
     CM_VERSION := XPerience-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(CM_BUILD)
 else
-    CM_VERSION := XPerience-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)
+    CM_VERSION := XPerience-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)$(CM_BUILDTYPE)-$(CM_BUILD)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
-  ro.modversion=$(CM_VERSION)
+  ro.modversion=$(CM_VERSION) \
+  ro.xpever=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
 
 
 -include $(WORKSPACE)/hudson/image-auto-bits.mk

@@ -1,85 +1,164 @@
-MiniCM
+XPerience
 ===============
 
-Official Website: http://minicm.dyndns.org/site/
+###XPerience-5.2.1
+[*] White UI like my AnimeROM and XPerience CN11 8.0.0 KK
+[*] White color for public
+[*] 2D Optimization
+[*] Listview Animations
+[*] 
 
-MiniCM chat room: http://minicm.dyndns.org/site/Chat/
+### XPerience-5.2.0-
+[*] All of 5.2.0 NIGHTLY
+[*] Release for all public
+[*] Kitkat Battery icon
+[*] Circle battery with like CM11
+[*] Circle battery when Charge as 96% color change to Green :) when unplugg charger color restore to original (adapted for kitkat configs)
+[*] Odexed for more performance
+[*] added minimal Tweaking on source code
+[*] Builded with flag -O3 for maximun optimization
+[*] Building with linaro Toolchain 4.8.2-PRE
+[*] Not Need Gaaps 
 
-Visit Project's page @ google code: http://code.google.com/p/minicm/
 
-Downloads: http://goo.im/devs/nAa/MiniCM10/
+### XPerience-5.2.0-Nightly
+[*] Latest CM 4.1.2 MR2
+[*] Hybrid rom 
+[*] CM11 Wallpaper and Bootanimation
+[*] Added Kitkat icons for status bar
+[*] Added Some parts of CM11 in the code of CM10
+[*] Optimized performance
+[*] Fix some HW issues
+[*] Fixed some glitches 
+[*] Fixes on Circle battery
 
-### MiniCM10-4.1.0
-* Latest CM 4.1.2 android code
-* Support for 2.6.32.60-nAa kernel
-* Updated wifi driver and wpa-supplicant8
-* Updated bluetooth and bluetooth tethering support
-* New TI/CM FM Radio app
-* Disable auto-convering of sms to mms
-* libaudio improvements
 
-### MiniCM10-4.0.2
-* New unique CrystalMiniCM10 theme (default from now on)
-* New MiniCMUpdater feature for nightlies/releases for auto-updates
-* HW Video encoding / decoding via OMX
+Changelog 5.1.5 Final
+
+* Ported Trebuchet 1.0 from CM10.2
+* Now trebuchet support live folders and icon pack
+* Proper ported Circle battery from CM10.2 and Omnirom 4.3 
+* Now When charge are 95% chance to green color (return to blue color if u unplugg charger)
+* Odexed
+* Add full support to 2.6.32.60-nAa-06 kernel
+* Fixed graphic glitches
+* Vortex XPerience™ animations (u can disable in settings window animation)
+* builded with linaro 4.8.2 and optimized with flag -O3
+* Fixed some issues related with conection/desconections
+* Scroll improvements
+* MTP fixes
+And more...
+
+Changelog 5.1.2
+
+* Added support to ODEX script check post here.---> http://forum.xda-developers.com/showthread.php?t=2222435
+* fixed some issues 
+* Fixed some lags
+* deleted SEMC apps
+* Update some scripts 
+* Fixed issue status 7 abort on cwm 
+* added bust my xperia and seeder apks thnks to gagan and [URL="http://forum.xda-developers.com/showthread.php?t=1987032"] lambgx02[/URL]
+* Best perdormance (if u use odex script)
+* Agressive tweaking up 75mb ram free ;) 
+* MORE....
+* Deleted Xperia lockscreend (lag provider :S )
+
+
+
+[COLOR="DarkSlateBlue"]Changelog 5.1.1[/COLOR]
+
+* Recompiled from sources 
+* Add full support to 2.6.32.60-nAa-05 kernel
+* Updated to MTP and new wifi drivers
+* Added uvrandom script ( based in script from linux mint nadia )
+* Added optimizations of xperience
+* Added SRS True media [COLOR="blue"](from post of daveee10)[/COLOR]
+* Added Xperia z launcher and wallpaper picker 
+* added Walkman ics
+* Added 4.1.2 jb XPeria Keyboard
+* Added Xperia Z locker[COLOR="Blue"] [ THNKS TO ariadelvana][/COLOR]
+* Compiled with armeabi-4.4.3 tool chain
+* Added support to use HDPI and XHDPI themes[COLOR="Magenta"] (thnkz to dzlcp)[/COLOR]
+* some minicm10 sources (thnks to nAa)
+* Much other bug fixes.
+
+Changelog 5.1.0
+
+* Updated Cyanogen sources
+* Update wifi firmware to work on wext tiwlan drivers
+* Added support to 2.6.32.60-nAa-04 and 2.6.32.60-YUKI-02 kernel
+* updates in framework and core bases(source)
+* fixes some bugs 
+* Optimized performance
+* fixes in battery calibration.
+and more...
+
+Changelog v 5.0.5
+* Compiled from scratch again
+* Optimized System to use with Gaaps
+* XPERIENCE S Theme 
+* XPerience BW theme by azaki
+* Optimized performance
+* Added Some SEMC Apps
+* Not need Flash Gaaps
+* Fixed lag issues
+* Updated SEMC WALKMAN (now change colors fine)
+* Optimized Tweaks XPE
+* New Audio libs
+* Fixed some lags on Youtube -HQ
+* Added support to OXYDO JB Kernel
+* Deleted XPERIA Keyboard
+...MORE...
+
+Changelog: Version 5.0.4[I][COLOR="Blue"] [/COLOR][/I]
+
+* HW Video encoding / decoding via OMX (Thnks to Ganster41 for sources [URL="http://forum.xda-developers.com/showthread.php?p=33374614"]here[/URL])
 * Camcorder 640x480 (full resolution)
-* Jellybean libaudio from sources (fixes for many audio related issues)
-* Removed SEMC stock keyboard
-* Improved camera performance and responsiveness
-* Improved all around performance and snappiness
+* Fixed libAudio
+* Improved Performance
 * Latest CM10 release code
-* CPU Settings are restored now after reboot
+* Fixed Lockscreen Issue
+* Added XPERIENCE™ For XPERIA TIPO Tweak (increase performance)
+* Optimized PNG's
+* Boost speed XPE 
+* Added XPE theme =) 
+* Added WALKMAN Updated 
+* some fixes in system 
 
-### MiniCM10-4.0.1
-* Screen off CRT (electronbeam) animation
-* Less artifacts with stock camera
-* Improved libaudio - now vol up/down in call work correctly
-* Improved performance
-* Back button ends call
-* Force GPU for 2D rendering on by default
-* Many many fixes from CM
-* Auto-brightness implementation
+Changelog 5.0.3
+* Fixed lags
+* CM optimizations
+* APP optimizations
+* Fixed Lockscreen issue (???
+* Fixed Facebook issue
+* Fixed Walkman ICS bugs (now charge mp3's faster)
 
-### MiniCM10-4.0.0
-* CM10 - Android 4.1.1 Jellybean codeline
-* Unique MiniCM10 theme
-* Full Hardware Acceleration with Adreno ICS libs
-* For use with nAa-ics kernel line only
-* Built for MDPI - shakira, LDPI - robyn, mimmi
-* MiniCM10 theme
-* GSM/SMS/Data(3G, EDGE)
-* Functional Camera (SEMC libcamera, camcorder not working)
-* Wifi
-* Wifi Tethering
-* Usb mass storage
-* Usb tethering
-* Bluetooth
-* Bluetooth Tethering
-* FM Radio
-* ADB at boot
-* Sensors
-* OpenGL Rendering for gui (the ICS way)
-* Libaudio from sources - supports wired headset and FM Radio
-* Software Video decoder
-* Vibration
-* GPS
-* App2sd (storing to ext4. Detect ext4 partition and swap and mount as such)
-* Native android moving apps to sdcard
-* Fixed banding issues
-* Flash led (Torch app) (for robyn, mimmi)
-* Stock SE T9 keyboard (for robyn, mimmi)
-* Offline charging
-* Reboot menu - boot into Recovery
-* Recovery version in Settings -> About Phone
-* OTA Update notifications for both kernel and ROM
-* Undervolting via Settings -> Performance menu
-* Ultra brightness via Settings -> Display menu
-* Option to disable bootanimation for faster boot
-* Partition info Settings menu
-* Bugreporting by pressing vol down + vol up + power. Attach this report on bugs that you open on the project's tracker
-* Long-pressing the HOME button toggles flashlight (option in Settings -> Lockscreen -> Security)
-* A2SD settings
-* Swap settings
+
+Changelog: 5.0.2
+
+[*]CM10 Android 4.1.2 Jelly bean code line
+[*]fixed blur notifications
+[*]Fixed problems with SuperUSER changed to superSU
+[*]Fixed problems with Link2SD scripts
+[*]Changed holo background  (Use solid backgroudn Improve scrolling)
+[*]CM10 optimizations
+[*] Functional Camera (SEMC libcamera, camcorder not working) (nAa Sources)
+[*] GSM/SMS/Data(3G, EDGE)
+[*] Wifi
+[*]Wifi Tethering
+[*]Usb mass storage
+[*]Usb tethering
+[*] Bluetooth
+[*]Bluetooth Tethering
+[*] FM Radio
+[*] ADB at boot
+[*]Sensors
+[*]Undervolting via Settings -> Performance menu
+[*] Ultra brightness via Settings -> Display menu
+[*] Option to disable bootanimation for faster boot
+[*] Improved performance
+[*] Back button ends call
+
 
 CyanogenMod
 ===============
